@@ -39,18 +39,21 @@ def load_assets():
 
     global model,vectorizer,drug_df
 
-    try:
+    print("Checking files...")
 
-        print("Loading model...")
-        model = joblib.load(model_path)
+    print(model_path)
+    print(vectorizer_path)
+    print(drug_path)
 
-        print("Loading vectorizer...")
-        vectorizer = joblib.load(vectorizer_path)
+    print("Model exists:",os.path.exists(model_path))
+    print("Vectorizer exists:",os.path.exists(vectorizer_path))
+    print("CSV exists:",os.path.exists(drug_path))
 
-        print("Loading drugs...")
-        drug_df = pd.read_csv(drug_path)
+    model = joblib.load(model_path)
+    vectorizer = joblib.load(vectorizer_path)
+    drug_df = pd.read_csv(drug_path)
 
-        print("Startup complete")
+    print("Startup complete")
 
     except Exception as e:
 
