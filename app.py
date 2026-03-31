@@ -7,8 +7,8 @@ import os
 
 app = FastAPI(title="Drug Condition Classifier API")
 
-model = joblib.load("model/passmodel_ngram.pkl")
-vectorizer = joblib.load("model/tfidfvectorizer_ngram.pkl")
+model = joblib.load("model/passmodel_ngram_compressed.pkl")
+vectorizer = joblib.load("model/tfidfvectorizer_ngram_compressed.pkl")
 
 DRUG_RECOMMENDATIONS = {
     "Birth Control": [
@@ -41,12 +41,19 @@ def predict_condition(request: ReviewRequest):
     cleaned = review_to_words(request.review)
     transformed = vectorizer.transform([cleaned])
     predicted_condition = model.predict(transformed)[0]
+
     scores = model.decision_function(transformed)[0]
     exp_scores = np.exp(scores - scores.max())
     probabilities = exp_scores / exp_scores.sum()
     confidence = round(float(probabilities.max()) * 100, 2)
+
     top_drugs = DRUG_RECOMMENDATIONS.get(predicted_condition, [])
-    return {"predicted_condition": predicted_condition, "confidence": f"{confidence}%", "top_3_recommended_drugs": top_drugs}
+
+    return {
+        "predicted_condition": predicted_condition,
+        "confidence": f"{confidence}%",
+        "top_3_recommended_drugs": top_drugs
+    }
 
 @app.get("/health")
 def health():
