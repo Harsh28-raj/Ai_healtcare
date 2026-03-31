@@ -3,14 +3,18 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 import joblib
+import pandas as pd
 import numpy as np
 import os
 
 from utils import review_to_words
 
+
+# -------- FastAPI init --------
 app = FastAPI(title="Drug Condition Classifier API")
 
-# -------- CORS (for web integration) --------
+
+# -------- CORS (frontend support) --------
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -19,49 +23,28 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# -------- Paths (cloud safe) --------
+
+# -------- Paths --------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model_path = os.path.join(BASE_DIR,"model","passmodel_ngram_compressed.pkl")
+model_path = os.path.join(BASE_DIR,"model","model.pkl")
 
-vectorizer_path = os.path.join(BASE_DIR,"model","tfidfvectorizer_ngram_compressed.pkl")
+vectorizer_path = os.path.join(BASE_DIR,"model","vectorizer.pkl")
 
-# -------- Load model once --------
+drug_path = os.path.join(BASE_DIR,"drug_recommendations.csv")
+
+
+# -------- Load assets once --------
 model = joblib.load(model_path)
 
 vectorizer = joblib.load(vectorizer_path)
 
+drug_df = pd.read_csv(drug_path)
 
-# -------- Drug recommendations --------
-DRUG_RECOMMENDATIONS = {
-
-    "Birth Control":[
-        {"drugName":"Plan B","avg_rating":10.0,"total_useful_count":35},
-        {"drugName":"Elinest","avg_rating":10.0,"total_useful_count":7},
-        {"drugName":"Provera","avg_rating":10.0,"total_useful_count":0}
-    ],
-
-    "Depression":[
-        {"drugName":"Norpramin","avg_rating":10.0,"total_useful_count":178},
-        {"drugName":"Xanax XR","avg_rating":10.0,"total_useful_count":61},
-        {"drugName":"Asendin","avg_rating":10.0,"total_useful_count":59}
-    ],
-
-    "Diabetes, Type 2":[
-        {"drugName":"Glucophage XR","avg_rating":10.0,"total_useful_count":184},
-        {"drugName":"Novolin N","avg_rating":10.0,"total_useful_count":46},
-        {"drugName":"Glumetza","avg_rating":10.0,"total_useful_count":24}
-    ],
-
-    "High Blood Pressure":[
-        {"drugName":"Minipress","avg_rating":10.0,"total_useful_count":37},
-        {"drugName":"Plendil","avg_rating":10.0,"total_useful_count":28},
-        {"drugName":"Aldactazide","avg_rating":10.0,"total_useful_count":27}
-    ]
-}
 
 # -------- Request schema --------
 class ReviewRequest(BaseModel):
+
     review:str
 
 
@@ -81,10 +64,85 @@ def predict_condition(request:ReviewRequest):
 
         transformed = vectorizer.transform([cleaned])
 
+
+        # Get scores
+        scores = model.decision_function(transformed)[0]
+
+        classes = model.classes_
+
+
+        # Softmax probability
+        exp_scores = np.exp(scores - scores.max())
+
+        probabilities = exp_scores / exp_scores.sum()
+
+
+        # Top 3 predictions
+        top3_idx = probabilities.argsort()[-3:][::-1]
+
+        top_predictions = []
+
+
+        for idx in top3_idx:
+
+            top_predictions.append({
+
+                "condition":classes[idx],
+
+                "confidence":f"{round(probabilities[idx]*100,2)}%"
+
+            })
+
+
+        predicted_condition = top_predictions[0]['condition']
+
+        confidence = top_predictions[0]['confidence']
+
+
+        # Drug lookup
+        top_drugs = drug_df[
+            drug_df['condition'].str.lower() ==
+            predicted_condition.lower()
+        ].head(3)
+
+
+        drug_list = []
+
+
+        if not top_drugs.empty:
+
+            for _,row in top_drugs.iterrows():
+
+                drug_list.append({
+
+                    "drugName":row['drugName'],
+
+                    "avg_rating":float(row['avg_rating']),
+
+                    "total_useful_count":int(row['total_useful_count'])
+
+                })
+
+
+        return {
+
+            "predicted_condition":predicted_condition,
+
+            "confidence":confidence,
+
+            "top_3_predictions":top_predictions,
+
+            "top_3_recommended_drugs":drug_list
+
+        }
+
+
+    except Exception as e:
+
+        return {"error":str(e)}
+
         predicted_condition = model.predict(transformed)[0]
 
-
-        # confidence calculation
         scores = model.decision_function(transformed)[0]
 
         exp_scores = np.exp(scores - scores.max())
@@ -93,20 +151,40 @@ def predict_condition(request:ReviewRequest):
 
         confidence = round(float(probabilities.max())*100,2)
 
+        # Drug recommendations
+        top_drugs = drug_df[
+        drug_df['condition'].str.lower() ==
+        predicted_condition.lower()
+        ].head(3)
 
-        top_drugs = DRUG_RECOMMENDATIONS.get(predicted_condition,[])
+
+        drug_list = []
+
+        if not top_drugs.empty:
+
+            for _,row in top_drugs.iterrows():
+
+             drug_list.append({
+
+             "drugName":row['drugName'],
+
+             "avg_rating":float(row['avg_rating']),
+
+              "total_useful_count":int(row['total_useful_count'])
+
+             })
 
 
-        return {
+            return {
 
             "predicted_condition":predicted_condition,
 
-            "confidence":f"{confidence}%",
+            "confidence":confidence,
 
-            "top_3_recommended_drugs":top_drugs
-        }
+            "top_3_predictions":top_predictions,
 
-
+            "top_3_recommended_drugs":drug_list
+            }
     except Exception as e:
 
         return {"error":str(e)}
@@ -118,7 +196,15 @@ def predict_condition(request:ReviewRequest):
 
 def root():
 
-    return {"message":"Drug Condition Classifier API running"}
+    return {
+
+        "message":"Drug Condition Classifier API running",
+
+        "model":"TFIDF + PassiveAggressive",
+
+        "supported_conditions":30
+
+    }
 
 
 # -------- Health check --------
@@ -127,6 +213,7 @@ def root():
 def health():
 
     return {"status":"ok"}
+
 
 
 # -------- Local run --------
