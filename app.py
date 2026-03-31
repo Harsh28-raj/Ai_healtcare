@@ -39,21 +39,18 @@ def load_assets():
 
     global model,vectorizer,drug_df
 
-    print("Checking files...")
+    try:
 
-    print(model_path)
-    print(vectorizer_path)
-    print(drug_path)
+        print("Loading model...")
+        model = joblib.load(model_path)
 
-    print("Model exists:",os.path.exists(model_path))
-    print("Vectorizer exists:",os.path.exists(vectorizer_path))
-    print("CSV exists:",os.path.exists(drug_path))
+        print("Loading vectorizer...")
+        vectorizer = joblib.load(vectorizer_path)
 
-    model = joblib.load(model_path)
-    vectorizer = joblib.load(vectorizer_path)
-    drug_df = pd.read_csv(drug_path)
+        print("Loading drugs...")
+        drug_df = pd.read_csv(drug_path)
 
-    print("Startup complete")
+        print("Startup complete")
 
     except Exception as e:
 
@@ -71,31 +68,27 @@ def predict_condition(request:ReviewRequest):
 
     try:
 
+        if model is None or vectorizer is None or drug_df is None:
+            return {"error":"Model not loaded"}
+
         if not request.review.strip():
-
             return {"error":"Empty review text"}
-
 
         cleaned = review_to_words(request.review)
 
         transformed = vectorizer.transform([cleaned])
 
-
         scores = model.decision_function(transformed)[0]
 
         classes = model.classes_
-
 
         exp_scores = np.exp(scores - scores.max())
 
         probabilities = exp_scores/exp_scores.sum()
 
-
         top3_idx = probabilities.argsort()[-3:][::-1]
 
-
         top_predictions=[]
-
 
         for idx in top3_idx:
 
@@ -118,7 +111,6 @@ def predict_condition(request:ReviewRequest):
 
 
         drug_list=[]
-
 
         for _,row in top_drugs.iterrows():
 
