@@ -1,53 +1,58 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
-import numpy as np 
-import pandas as pd
+import numpy as np
 from utils import review_to_words
+import os
 
-    
 app = FastAPI(title="Drug Condition Classifier API")
 
-# Load model, vectorizer, and dataset
 model = joblib.load("model/passmodel_ngram.pkl")
 vectorizer = joblib.load("model/tfidfvectorizer_ngram.pkl")
-df = pd.read_csv("C:\\Users\\harsh\\OneDrive\\Desktop\\Patien_cnd_pred\\drugs_filtered.csv")
+
+DRUG_RECOMMENDATIONS = {
+    "Birth Control": [
+        {"drugName": "Plan B", "avg_rating": 10.0, "total_useful_count": 35},
+        {"drugName": "Elinest", "avg_rating": 10.0, "total_useful_count": 7},
+        {"drugName": "Provera", "avg_rating": 10.0, "total_useful_count": 0}
+    ],
+    "Depression": [
+        {"drugName": "Norpramin", "avg_rating": 10.0, "total_useful_count": 178},
+        {"drugName": "Xanax XR", "avg_rating": 10.0, "total_useful_count": 61},
+        {"drugName": "Asendin", "avg_rating": 10.0, "total_useful_count": 59}
+    ],
+    "Diabetes, Type 2": [
+        {"drugName": "Glucophage XR", "avg_rating": 10.0, "total_useful_count": 184},
+        {"drugName": "Novolin N", "avg_rating": 10.0, "total_useful_count": 46},
+        {"drugName": "Glumetza", "avg_rating": 10.0, "total_useful_count": 24}
+    ],
+    "High Blood Pressure": [
+        {"drugName": "Minipress", "avg_rating": 10.0, "total_useful_count": 37},
+        {"drugName": "Plendil", "avg_rating": 10.0, "total_useful_count": 28},
+        {"drugName": "Aldactazide", "avg_rating": 10.0, "total_useful_count": 27}
+    ]
+}
 
 class ReviewRequest(BaseModel):
     review: str
 
 @app.post("/predict")
 def predict_condition(request: ReviewRequest):
-    # Step 1: Preprocess
     cleaned = review_to_words(request.review)
     transformed = vectorizer.transform([cleaned])
-
-    # Step 2: Predict condition
     predicted_condition = model.predict(transformed)[0]
-
-    # Step 3: Confidence score
     scores = model.decision_function(transformed)[0]
     exp_scores = np.exp(scores - scores.max())
     probabilities = exp_scores / exp_scores.sum()
     confidence = round(float(probabilities.max()) * 100, 2)
-
-    # Step 4: Top 3 drug recommendations
-    drugs_for_condition = df[df['condition'] == predicted_condition]
-    drug_recommendations = (
-        drugs_for_condition
-        .groupby('drugName')
-        .agg(avg_rating=('rating', 'mean'), total_useful_count=('usefulCount', 'sum'))
-        .reset_index()
-        .sort_values(by=['avg_rating', 'total_useful_count'], ascending=[False, False])
-    )
-    top_drugs = drug_recommendations.head(3)[['drugName', 'avg_rating', 'total_useful_count']].to_dict(orient='records')
-
-    return {
-        "predicted_condition": predicted_condition,
-        "confidence": f"{confidence}%",
-        "top_3_recommended_drugs": top_drugs
-    }
+    top_drugs = DRUG_RECOMMENDATIONS.get(predicted_condition, [])
+    return {"predicted_condition": predicted_condition, "confidence": f"{confidence}%", "top_3_recommended_drugs": top_drugs}
 
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
