@@ -2,7 +2,6 @@ fastapi
 uvicorn[standard]
 joblib
 scikit-learn==1.6.1
-nltk
 beautifulsoup4
 numpy
 pandas
