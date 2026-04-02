@@ -2,15 +2,16 @@ import json
 import numpy as np
 import joblib
 import re
-from fastapi import FastAPI
+import gc
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
-from difflib import get_close_matches # Fuzzy matching ke liye
+from difflib import get_close_matches
 
 app = FastAPI(title="Disease Prediction Engine v1.0")
 
-# 🛡️ CORS Fix for Web Team
+# 🌐 CORS Fix: Taaki Frontend Team connect kar sake
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -19,124 +20,81 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load model and symptoms
+# --- 🧠 Model & Data Loading ---
+model = None
+symptoms_list = []
+
 try:
-    # Check if files exist before loading
+    # Model load karo
     model = joblib.load("disease_rf_model.joblib")
+    
+    # Symptoms list load karo
     with open("symptoms_list.json", "r") as f:
-        symptoms_list = json.load(f)
-    symptom_to_idx = {sym: idx for idx, sym in enumerate(symptoms_list)}
-    print("✅ Model & Symptoms Loaded Successfully")
+        data = json.load(f)
+        symptoms_list = data["symptoms"]
+    
+    # 🧹 RAM Saaf Karo (Very Important for Render Free Tier)
+    gc.collect()
+    print("✅ Backend Ready: Model and Symptoms Loaded!")
 except Exception as e:
-    print(f"❌ Error loading model or symptoms: {e}")
-    model = None
-    symptoms_list = []
-    symptom_to_idx = {}
+    print(f"❌ Error during startup: {e}")
 
+# --- 📝 Data Models ---
 class Vitals(BaseModel):
-    systolic_bp: Optional[int] = None
-    diastolic_bp: Optional[int] = None
-    heart_rate: Optional[int] = None
+    systolic_bp: Optional[int] = 120
+    diastolic_bp: Optional[int] = 80
+    heart_rate: Optional[int] = 72
 
-class PredictionRequest(BaseModel):
+class PredictRequest(BaseModel):
     symptoms: List[str]
-    vitals: Optional[Vitals] = None
+    vitals: Optional[Vitals]
+
+# --- 🛠️ Helper Functions ---
+def get_severity(vitals: Vitals):
+    """Vitals ke basis pe khatra check karta hai"""
+    if vitals.systolic_bp > 160 or vitals.diastolic_bp > 100 or vitals.heart_rate > 120:
+        return "CRITICAL", "Emergency! Please consult a doctor immediately."
+    elif vitals.systolic_bp > 140 or vitals.heart_rate > 100:
+        return "HIGH", "High risk detected. Consult a specialist soon."
+    return "NORMAL", "Stable. Follow the recommended advice."
+
+# --- 🚀 API Endpoints ---
+
+@app.get("/")
+def home():
+    return {"status": "AI Healthcare API is Running", "docs": "/docs"}
 
 @app.get("/symptoms")
-def get_symptoms():
+def get_all_symptoms():
     return {"count": len(symptoms_list), "symptoms": symptoms_list}
 
-def analyze_vitals(vitals: Vitals):
-    severity = "Normal"
-    emergency_alert = False
-    reasons = []
-
-    if vitals:
-        if vitals.systolic_bp and vitals.diastolic_bp:
-            if vitals.systolic_bp > 180 or vitals.diastolic_bp > 120:
-                severity, emergency_alert = "Critical", True
-                reasons.append("Hypertensive Crisis Detected")
-            elif vitals.systolic_bp > 140 or vitals.diastolic_bp > 90:
-                severity = "Elevated"
-                reasons.append("High Blood Pressure")
-        
-        if vitals.heart_rate:
-            if vitals.heart_rate > 120 or vitals.heart_rate < 50:
-                severity, emergency_alert = "Critical", True
-                reasons.append("Abnormal Heart Rate (Tachycardia/Bradycardia)")
-    
-    return severity, emergency_alert, reasons
-
-def get_next_steps(disease, severity):
-    if severity == "Critical":
-        return ["Emergency Room Visit Immediately", "Do not drive yourself", "Keep medical history ready"]
-    return ["Schedule appointment with specialist", "Monitor symptoms for 24 hours", "Maintain hydration and rest"]
-
-def map_specialist(disease: str):
-    d = disease.lower()
-    if any(x in d for x in ['heart', 'angina', 'coronary', 'hypertension']): return "Cardiologist"
-    if any(x in d for x in ['diabetes', 'thyroid', 'goitre']): return "Endocrinologist"
-    if any(x in d for x in ['pneumonia', 'asthma', 'bronchitis', 'copd']): return "Pulmonologist"
-    if any(x in d for x in ['stroke', 'epilepsy', 'parkinson', 'migraine']): return "Neurologist"
-    if any(x in d for x in ['gastritis', 'ulcer', 'hepatitis']): return "Gastroenterologist"
-    if any(x in d for x in ['psoriasis', 'rash', 'acne', 'dermatitis']): return "Dermatologist"
-    return "General Physician"
-
 @app.post("/predict")
-def predict_disease(request: PredictionRequest):
-    if model is None:
-        return {"error": "AI Model not initialized on server."}
+def predict(request: PredictRequest):
+    if not model:
+        raise HTTPException(status_code=500, detail="Model not loaded on server")
     
-    # 🧠 Smart Symptom Matching (Fuzzy Search)
-    processed_inputs = []
-    for s in request.symptoms:
-        s_clean = s.lower().strip()
-        if s_clean in symptom_to_idx:
-            processed_inputs.append(s_clean)
-        else:
-            # Match agar spelling thodi galat ho (e.g. 'chestpain' -> 'chest pain')
-            matches = get_close_matches(s_clean, symptoms_list, n=1, cutoff=0.7)
-            if matches:
-                processed_inputs.append(matches[0])
+    if not request.symptoms:
+        raise HTTPException(status_code=400, detail="Please select at least one symptom")
 
-    if not processed_inputs:
-        return {"error": "Symptoms not recognized. Use /symptoms to see supported list."}
-        
-    # Vectorization
-    vector = np.zeros((1, len(symptoms_list)))
-    for sym in processed_inputs:
-        vector[0, symptom_to_idx[sym]] = 1
-        
-    # Model Prediction
-    probabilities = model.predict_proba(vector)[0]
-    best_idx = np.argmax(probabilities)
-    confidence = float(probabilities[best_idx])
-    disease = str(model.classes_[best_idx])
+    # 1. Create Input Vector (Symptom Matching)
+    input_vector = np.zeros(len(symptoms_list))
+    for s in request.symptoms:
+        if s in symptoms_list:
+            idx = symptoms_list.index(s)
+            input_vector[idx] = 1
     
-    # Vitals & Emergency Logic
-    severity, emergency, vitals_reasons = analyze_vitals(request.vitals)
+    # 2. AI Prediction
+    prediction = model.predict([input_vector])[0]
     
-    # Critical Symptoms Trigger
-    critical_words = ['chest pain', 'shortness of breath', 'unresponsiveness', 'seizure']
-    if any(cw in processed_inputs for cw in critical_words):
-        emergency, severity = True, "Critical"
-        vitals_reasons.append("High-risk symptom detected")
+    # 3. Severity Logic from Vitals
+    severity_level, advice = get_severity(request.vitals)
 
     return {
-        "prediction": {
-            "disease": disease.replace('_', ' ').title(),
-            "confidence": f"{round(confidence * 100, 1)}%",
-            "specialist": map_specialist(disease),
-            "severity": severity,
-            "emergency_alert": emergency
-        },
-        "analysis": {
-            "detected_symptoms": processed_inputs,
-            "vitals_notes": vitals_reasons,
-            "next_steps": get_next_steps(disease, severity)
-        }
+        "prediction": str(prediction),
+        "severity": severity_level,
+        "recommendation": advice,
+        "specialist": "General Physician" if severity_level == "NORMAL" else "Specialist / Emergency Care"
     }
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# 🧹 Final Garbage Collection
+gc.collect()
