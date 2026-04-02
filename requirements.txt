@@ -1,6 +1,6 @@
 fastapi
 uvicorn
 joblib
-numpy
+numpy<2.0.0
 scikit-learn==1.6.1
 python-multipart
