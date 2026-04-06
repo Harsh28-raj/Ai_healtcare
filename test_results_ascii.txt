@@ -1,0 +1,49 @@
+=== TEST 1: /medicine/search?name=dolo ===
+{
+  "name": "Dolo Drops",
+  "type": "Allopathy",
+  "category": "Pain Relief / Antipyretic",
+  "composition": "Paracetamol (100mg/ml)",
+  "uses": " Pain reliefTreatment of Fever",
+  "side_effects": "Indigestion Stomach pain Nausea Vomiting",
+  "manufacturer": "Micro Labs Ltd",
+  "available": true,
+  "trust_score": "75% positive",
+  "alternatives": [
+    "Babygesic Drops Orange",
+    "Fevago 100mg/ml Drop",
+    "Gempar 1K Tablet"
+  ]
+}
+
+=== TEST 2: /medicine/search?name=paracetamol ===
+{
+  "name": "Paracetamol Tablet",
+  "type": "allopathy",
+  "category": "Pain Relief / Antipyretic",
+  "composition": "Paracetamol (500mg)",
+  "uses": "Treatment of Common cold",
+  "side_effects": "Vomiting Dryness in mouth Headache Sleepiness Fatigue Constipation Diarrhea",
+  "manufacturer": "Modi Lifecare Industries Ltd",
+  "available": true,
+  "trust_score": "90% positive",
+  "alternatives": [
+    "Allercet Cold Tablet",
+    "Akilos-P Tablet",
+    "Arflur 3D Tablet"
+  ]
+}
+
+=== TEST 3: /medicine/suggest?q=dol ===
+{
+  "suggestions": [
+    "Dolo Drops",
+    "Dolonex Gel",
+    "Dolocaine Cream",
+    "Dollos-P Tablet",
+    "Dolanzen Tablet"
+  ]
+}
+
+=== TEST 4: /medicine/barcode?code=70771-1424-2 ===
+Error 404: {"detail":"Barcode not found in OpenFDA. Please check the code or try searching by name using /medicine/search"}
