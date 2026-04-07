@@ -1,0 +1,5027 @@
+{
+    "hot tea": {
+        "calories": 16,
+        "flags": []
+    },
+    "instant coffee": {
+        "calories": 23,
+        "flags": []
+    },
+    "espreso coffee": {
+        "calories": 52,
+        "flags": []
+    },
+    "iced tea": {
+        "calories": 10,
+        "flags": []
+    },
+    "raw mango drink": {
+        "calories": 36,
+        "flags": []
+    },
+    "fruit punch": {
+        "calories": 23,
+        "flags": []
+    },
+    "lemonade": {
+        "calories": 21,
+        "flags": []
+    },
+    "lem-o-gin": {
+        "calories": 22,
+        "flags": []
+    },
+    "cumin infused water": {
+        "calories": 9,
+        "flags": []
+    },
+    "coco pine cooler": {
+        "calories": 33,
+        "flags": []
+    },
+    "summer cooler": {
+        "calories": 22,
+        "flags": []
+    },
+    "hot cocoa": {
+        "calories": 90,
+        "flags": []
+    },
+    "cold coffee with ice cream": {
+        "calories": 68,
+        "flags": []
+    },
+    "banana milkshake": {
+        "calories": 65,
+        "flags": []
+    },
+    "mango milkshake": {
+        "calories": 57,
+        "flags": []
+    },
+    "pineapple milkshake": {
+        "calories": 56,
+        "flags": []
+    },
+    "orange milkshake": {
+        "calories": 57,
+        "flags": []
+    },
+    "egg nog": {
+        "calories": 97,
+        "flags": []
+    },
+    "sweet lassi": {
+        "calories": 36,
+        "flags": []
+    },
+    "lassi": {
+        "calories": 19,
+        "flags": []
+    },
+    "cheese and chilli sandwich": {
+        "calories": 218,
+        "flags": []
+    },
+    "egg sandwich": {
+        "calories": 286,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cucumber sandwich": {
+        "calories": 189,
+        "flags": []
+    },
+    "cheese and pineapple sandwich": {
+        "calories": 258,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cheese and tomato sandwich": {
+        "calories": 225,
+        "flags": []
+    },
+    "chicken sandwich": {
+        "calories": 167,
+        "flags": []
+    },
+    "peanut and tomato sandwich": {
+        "calories": 291,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "rainbow sandwich": {
+        "calories": 273,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "club sandwich": {
+        "calories": 235,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "vegetarian club sandwich": {
+        "calories": 198,
+        "flags": []
+    },
+    "pin wheel sandwich": {
+        "calories": 312,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "carrot apple sandwich": {
+        "calories": 214,
+        "flags": []
+    },
+    "salami sandwich": {
+        "calories": 256,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "vegetable and mayonnaise sandwich": {
+        "calories": 244,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "egg and tomato sandwich": {
+        "calories": 222,
+        "flags": []
+    },
+    "sweet open sandwich": {
+        "calories": 244,
+        "flags": []
+    },
+    "mushroom and cheese sandwich": {
+        "calories": 227,
+        "flags": []
+    },
+    "pea potato sandwich": {
+        "calories": 165,
+        "flags": []
+    },
+    "paneer pea sandwich": {
+        "calories": 250,
+        "flags": []
+    },
+    "pea keema sandwich": {
+        "calories": 172,
+        "flags": []
+    },
+    "classic club sandwich": {
+        "calories": 201,
+        "flags": []
+    },
+    "sesame toast": {
+        "calories": 495,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cracked wheat porridge": {
+        "calories": 82,
+        "flags": []
+    },
+    "semolina porridge": {
+        "calories": 101,
+        "flags": []
+    },
+    "oatmeal porridge": {
+        "calories": 73,
+        "flags": []
+    },
+    "cornflakes with milk": {
+        "calories": 117,
+        "flags": []
+    },
+    "rice flakes": {
+        "calories": 112,
+        "flags": []
+    },
+    "wheat flakes": {
+        "calories": 112,
+        "flags": []
+    },
+    "murmura": {
+        "calories": 113,
+        "flags": []
+    },
+    "puffed wheat": {
+        "calories": 113,
+        "flags": []
+    },
+    "boiled egg": {
+        "calories": 45,
+        "flags": []
+    },
+    "fried egg": {
+        "calories": 224,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "poached egg": {
+        "calories": 124,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "scrambled egg": {
+        "calories": 156,
+        "flags": []
+    },
+    "baked egg": {
+        "calories": 219,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "plain omelette/omlet": {
+        "calories": 272,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "stuffed egg omelette/omlet": {
+        "calories": 204,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "pancake": {
+        "calories": 203,
+        "flags": []
+    },
+    "keema pancake": {
+        "calories": 176,
+        "flags": []
+    },
+    "vegetable pancake": {
+        "calories": 125,
+        "flags": []
+    },
+    "jam and fruit pancake": {
+        "calories": 162,
+        "flags": []
+    },
+    "khoa and coconut pancake": {
+        "calories": 272,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "brown stock": {
+        "calories": 21,
+        "flags": []
+    },
+    "vegetable stock": {
+        "calories": 18,
+        "flags": []
+    },
+    "chicken stock": {
+        "calories": 30,
+        "flags": []
+    },
+    "clear tomato soup": {
+        "calories": 80,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "lentil soup": {
+        "calories": 31,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "chicken consomme": {
+        "calories": 48,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of tomato soup": {
+        "calories": 98,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of green peas soup": {
+        "calories": 128,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of spinach soup": {
+        "calories": 101,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of mixed vegetable soup": {
+        "calories": 60,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of mushroom soup": {
+        "calories": 117,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "chicken sweet corn soup": {
+        "calories": 28,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "minestrone soup": {
+        "calories": 43,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "egg drop soup": {
+        "calories": 27,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "chinese cabbage and meat ball soup": {
+        "calories": 484,
+        "flags": [
+            "High Calorie",
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "french onion soup": {
+        "calories": 56,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "hot and sour soup": {
+        "calories": 32,
+        "flags": []
+    },
+    "talaumein soup": {
+        "calories": 36,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cold cucumber soup": {
+        "calories": 48,
+        "flags": []
+    },
+    "cold summer garden soup": {
+        "calories": 49,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "chapati/roti": {
+        "calories": 202,
+        "flags": []
+    },
+    "plain parantha/paratha": {
+        "calories": 298,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "potato parantha/paratha": {
+        "calories": 205,
+        "flags": []
+    },
+    "radish parantha/paratha": {
+        "calories": 184,
+        "flags": []
+    },
+    "cauliflower parantha/paratha": {
+        "calories": 178,
+        "flags": []
+    },
+    "dal parantha/paratha": {
+        "calories": 268,
+        "flags": []
+    },
+    "sprouted moong parantha/paratha": {
+        "calories": 229,
+        "flags": []
+    },
+    "pea parantha/paratha": {
+        "calories": 191,
+        "flags": []
+    },
+    "keema parantha/paratha": {
+        "calories": 238,
+        "flags": []
+    },
+    "paneer parantha/paratha": {
+        "calories": 263,
+        "flags": []
+    },
+    "besan and spinach parantha/paratha": {
+        "calories": 216,
+        "flags": []
+    },
+    "poori": {
+        "calories": 738,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach poori": {
+        "calories": 684,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "methi poori": {
+        "calories": 710,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "dal stuffed poori": {
+        "calories": 785,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "potato stuffed poori": {
+        "calories": 777,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "tandoori parantha/paratha": {
+        "calories": 295,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "boiled rice": {
+        "calories": 117,
+        "flags": []
+    },
+    "plain pulao": {
+        "calories": 140,
+        "flags": []
+    },
+    "mixed vegetable pulao": {
+        "calories": 113,
+        "flags": []
+    },
+    "mushroom pulao": {
+        "calories": 124,
+        "flags": []
+    },
+    "sprouted moong pulao": {
+        "calories": 113,
+        "flags": []
+    },
+    "paneer pulao": {
+        "calories": 582,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peanut pulao": {
+        "calories": 193,
+        "flags": []
+    },
+    "navratan pulao": {
+        "calories": 262,
+        "flags": []
+    },
+    "green chickpeas pulao": {
+        "calories": 173,
+        "flags": []
+    },
+    "mutton biryani/biriyani": {
+        "calories": 191,
+        "flags": []
+    },
+    "vegetable biryani/biriyani": {
+        "calories": 175,
+        "flags": []
+    },
+    "lemon rice": {
+        "calories": 176,
+        "flags": []
+    },
+    "sweet rice": {
+        "calories": 215,
+        "flags": []
+    },
+    "curd rice": {
+        "calories": 196,
+        "flags": []
+    },
+    "tamarind rice": {
+        "calories": 373,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "spanish rice": {
+        "calories": 164,
+        "flags": []
+    },
+    "chinese fried rice": {
+        "calories": 121,
+        "flags": []
+    },
+    "macroni cheese pie": {
+        "calories": 171,
+        "flags": []
+    },
+    "vegetable chowmein": {
+        "calories": 130,
+        "flags": []
+    },
+    "chicken chowmein": {
+        "calories": 151,
+        "flags": []
+    },
+    "cheese noodle ring": {
+        "calories": 134,
+        "flags": []
+    },
+    "spaghetti and cheese balls in tomato sauce": {
+        "calories": 508,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "penne platter": {
+        "calories": 177,
+        "flags": []
+    },
+    "pasta hot pot": {
+        "calories": 125,
+        "flags": []
+    },
+    "chicken lasagne": {
+        "calories": 187,
+        "flags": []
+    },
+    "fettuccine with spinach sauce": {
+        "calories": 129,
+        "flags": []
+    },
+    "naan": {
+        "calories": 286,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "bhatura": {
+        "calories": 793,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "idli": {
+        "calories": 138,
+        "flags": []
+    },
+    "masala dosa": {
+        "calories": 165,
+        "flags": []
+    },
+    "semolina dosa": {
+        "calories": 227,
+        "flags": []
+    },
+    "onion tomato uttapam": {
+        "calories": 462,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer kaathi roll": {
+        "calories": 286,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "makki ki roti": {
+        "calories": 264,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "washed moong dal": {
+        "calories": 50,
+        "flags": []
+    },
+    "washed urad dal": {
+        "calories": 61,
+        "flags": []
+    },
+    "split bengal gram with bottle gourd": {
+        "calories": 73,
+        "flags": []
+    },
+    "dry washed urad": {
+        "calories": 125,
+        "flags": []
+    },
+    "mixed dal": {
+        "calories": 62,
+        "flags": []
+    },
+    "whole moong": {
+        "calories": 54,
+        "flags": []
+    },
+    "whole masoor": {
+        "calories": 54,
+        "flags": []
+    },
+    "whole moth": {
+        "calories": 55,
+        "flags": []
+    },
+    "whole urad": {
+        "calories": 54,
+        "flags": []
+    },
+    "moti mahal dal": {
+        "calories": 103,
+        "flags": []
+    },
+    "black channa curry/bengal gram curry": {
+        "calories": 141,
+        "flags": []
+    },
+    "chickpeas curry": {
+        "calories": 163,
+        "flags": []
+    },
+    "lobia curry": {
+        "calories": 149,
+        "flags": []
+    },
+    "soyabean curry": {
+        "calories": 163,
+        "flags": []
+    },
+    "kidney bean curry": {
+        "calories": 144,
+        "flags": []
+    },
+    "sambar": {
+        "calories": 97,
+        "flags": []
+    },
+    "besan kadhi with pakodies": {
+        "calories": 403,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "khatta channa": {
+        "calories": 203,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "sprouted moong dal chat": {
+        "calories": 32,
+        "flags": []
+    },
+    "potato cauliflower": {
+        "calories": 106,
+        "flags": []
+    },
+    "potato capsicum": {
+        "calories": 126,
+        "flags": []
+    },
+    "cabbage and peas": {
+        "calories": 64,
+        "flags": []
+    },
+    "carrot and fenugreek leaves": {
+        "calories": 62,
+        "flags": []
+    },
+    "potato fenugreek": {
+        "calories": 135,
+        "flags": []
+    },
+    "brinjal bhartha": {
+        "calories": 65,
+        "flags": []
+    },
+    "dry potato": {
+        "calories": 103,
+        "flags": []
+    },
+    "beans with coconut": {
+        "calories": 132,
+        "flags": []
+    },
+    "cauliflower with coconut": {
+        "calories": 132,
+        "flags": []
+    },
+    "carrot and cabbage with coconut": {
+        "calories": 107,
+        "flags": []
+    },
+    "raw turnip with coconut": {
+        "calories": 132,
+        "flags": []
+    },
+    "raw papaya with coconut": {
+        "calories": 133,
+        "flags": []
+    },
+    "stuffed okra": {
+        "calories": 94,
+        "flags": []
+    },
+    "stuffed round gourd": {
+        "calories": 73,
+        "flags": []
+    },
+    "stuffed capsicum": {
+        "calories": 91,
+        "flags": []
+    },
+    "stuffed brinjal": {
+        "calories": 93,
+        "flags": []
+    },
+    "stuffed tomatoes": {
+        "calories": 93,
+        "flags": []
+    },
+    "pea potato curry": {
+        "calories": 101,
+        "flags": []
+    },
+    "pea paneer curry": {
+        "calories": 135,
+        "flags": []
+    },
+    "pea mushroom curry": {
+        "calories": 93,
+        "flags": []
+    },
+    "pea curry": {
+        "calories": 103,
+        "flags": []
+    },
+    "pea vadi curry": {
+        "calories": 102,
+        "flags": []
+    },
+    "paneer curry": {
+        "calories": 177,
+        "flags": []
+    },
+    "lotus stem curry": {
+        "calories": 110,
+        "flags": []
+    },
+    "gravy for kofta": {
+        "calories": 126,
+        "flags": []
+    },
+    "pea kofta curry": {
+        "calories": 596,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach kofta curry": {
+        "calories": 572,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer kofta curry": {
+        "calories": 671,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "lotus stem kofta curry": {
+        "calories": 634,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "raw banana kofta curry": {
+        "calories": 627,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cauliflower kofta curry": {
+        "calories": 641,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cabbage kofta curry": {
+        "calories": 640,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "ghiya/lauki kofta curry": {
+        "calories": 639,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach paneer kofta curry": {
+        "calories": 606,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "vegetarian egg kofta curry": {
+        "calories": 627,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "baked vegetables": {
+        "calories": 89,
+        "flags": []
+    },
+    "cauliflower musallam": {
+        "calories": 59,
+        "flags": []
+    },
+    "baked vegetables with spinach": {
+        "calories": 78,
+        "flags": []
+    },
+    "baked potato with skin": {
+        "calories": 136,
+        "flags": []
+    },
+    "shepherd's pie": {
+        "calories": 143,
+        "flags": []
+    },
+    "baked brinjal in tomato sauce": {
+        "calories": 39,
+        "flags": []
+    },
+    "dum aloo": {
+        "calories": 682,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach paneer": {
+        "calories": 78,
+        "flags": []
+    },
+    "methi chaman": {
+        "calories": 476,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sarson ka saag": {
+        "calories": 88,
+        "flags": []
+    },
+    "jackfruit sabzi": {
+        "calories": 625,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "avial": {
+        "calories": 125,
+        "flags": []
+    },
+    "al yakhani": {
+        "calories": 148,
+        "flags": []
+    },
+    "shahi paneer": {
+        "calories": 156,
+        "flags": []
+    },
+    "paneer in butter sauce": {
+        "calories": 146,
+        "flags": []
+    },
+    "methi malai paneer": {
+        "calories": 195,
+        "flags": []
+    },
+    "chilli paneer": {
+        "calories": 778,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer makhana korma": {
+        "calories": 776,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "kadhai paneer": {
+        "calories": 108,
+        "flags": []
+    },
+    "roghan josh": {
+        "calories": 140,
+        "flags": []
+    },
+    "spinach mutton": {
+        "calories": 80,
+        "flags": []
+    },
+    "pea keema curry": {
+        "calories": 133,
+        "flags": []
+    },
+    "keema kofta curry": {
+        "calories": 154,
+        "flags": []
+    },
+    "kashmiri mutton koftas": {
+        "calories": 97,
+        "flags": []
+    },
+    "mutton yakhni": {
+        "calories": 104,
+        "flags": []
+    },
+    "chicken yakhni": {
+        "calories": 99,
+        "flags": []
+    },
+    "mutton do piaza": {
+        "calories": 183,
+        "flags": []
+    },
+    "mutton chops": {
+        "calories": 664,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "shammi kebab": {
+        "calories": 686,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "scotch egg": {
+        "calories": 677,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "chicken curry": {
+        "calories": 129,
+        "flags": []
+    },
+    "tandoori chicken": {
+        "calories": 145,
+        "flags": []
+    },
+    "butter chicken": {
+        "calories": 137,
+        "flags": []
+    },
+    "chicken kebab": {
+        "calories": 729,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "chilli chicken": {
+        "calories": 199,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "fried chicken with tomato sauce": {
+        "calories": 125,
+        "flags": []
+    },
+    "fish curry": {
+        "calories": 111,
+        "flags": []
+    },
+    "fried fish": {
+        "calories": 659,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fried fish and chips": {
+        "calories": 652,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "tomato fish": {
+        "calories": 490,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "baked fish with cheese sauce": {
+        "calories": 114,
+        "flags": []
+    },
+    "fish tikka": {
+        "calories": 117,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "tandoori fish": {
+        "calories": 96,
+        "flags": []
+    },
+    "paneer, apple and pineapple salad": {
+        "calories": 95,
+        "flags": []
+    },
+    "russian salad": {
+        "calories": 115,
+        "flags": []
+    },
+    "pasta salad": {
+        "calories": 190,
+        "flags": []
+    },
+    "deviled egg": {
+        "calories": 99,
+        "flags": []
+    },
+    "hawain salad": {
+        "calories": 175,
+        "flags": []
+    },
+    "mixed pulse and vegetable salad": {
+        "calories": 83,
+        "flags": []
+    },
+    "sprouted moong salad": {
+        "calories": 38,
+        "flags": []
+    },
+    "tossed salad": {
+        "calories": 63,
+        "flags": []
+    },
+    "mixed vegetable salad with curd sauce": {
+        "calories": 60,
+        "flags": []
+    },
+    "potato salad": {
+        "calories": 90,
+        "flags": []
+    },
+    "waldroff salad": {
+        "calories": 142,
+        "flags": []
+    },
+    "coleslaw": {
+        "calories": 77,
+        "flags": []
+    },
+    "fruit salad": {
+        "calories": 78,
+        "flags": []
+    },
+    "tomato onion raita": {
+        "calories": 59,
+        "flags": []
+    },
+    "peanut raita": {
+        "calories": 150,
+        "flags": []
+    },
+    "sprouted moong raita": {
+        "calories": 61,
+        "flags": []
+    },
+    "bottle gourd raita": {
+        "calories": 56,
+        "flags": []
+    },
+    "cucumber raita": {
+        "calories": 59,
+        "flags": []
+    },
+    "carrot and spinach raita": {
+        "calories": 57,
+        "flags": []
+    },
+    "mint raita": {
+        "calories": 78,
+        "flags": []
+    },
+    "potato raita": {
+        "calories": 75,
+        "flags": []
+    },
+    "boondi raita": {
+        "calories": 688,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sweet raita": {
+        "calories": 99,
+        "flags": []
+    },
+    "dahi vadas/dahi bhalla": {
+        "calories": 668,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "gunjia": {
+        "calories": 667,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "saunth/sonth chutney with tamarind/imli": {
+        "calories": 142,
+        "flags": []
+    },
+    "rice kheer": {
+        "calories": 75,
+        "flags": []
+    },
+    "makhana kheer": {
+        "calories": 108,
+        "flags": []
+    },
+    "vermicelli kheer": {
+        "calories": 120,
+        "flags": []
+    },
+    "semolina kheer": {
+        "calories": 113,
+        "flags": []
+    },
+    "paneer kheer": {
+        "calories": 105,
+        "flags": []
+    },
+    "cabbage kheer": {
+        "calories": 84,
+        "flags": []
+    },
+    "carrot kheer": {
+        "calories": 85,
+        "flags": []
+    },
+    "cauliflower kheer": {
+        "calories": 82,
+        "flags": []
+    },
+    "moong dal kheer": {
+        "calories": 77,
+        "flags": []
+    },
+    "phirni": {
+        "calories": 116,
+        "flags": []
+    },
+    "semolina halwa": {
+        "calories": 226,
+        "flags": []
+    },
+    "shahi suji halwa": {
+        "calories": 382,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "carrot halwa": {
+        "calories": 173,
+        "flags": []
+    },
+    "egg halwa": {
+        "calories": 300,
+        "flags": []
+    },
+    "potato halwa": {
+        "calories": 152,
+        "flags": []
+    },
+    "pumpkin halwa": {
+        "calories": 190,
+        "flags": []
+    },
+    "moong dal halwa": {
+        "calories": 350,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "caramel custard": {
+        "calories": 123,
+        "flags": []
+    },
+    "baked custard": {
+        "calories": 107,
+        "flags": []
+    },
+    "soft custard": {
+        "calories": 109,
+        "flags": []
+    },
+    "chocolate ice cream": {
+        "calories": 178,
+        "flags": []
+    },
+    "mango ice cream": {
+        "calories": 126,
+        "flags": []
+    },
+    "fruit ice cream": {
+        "calories": 171,
+        "flags": []
+    },
+    "caramel ice cream": {
+        "calories": 174,
+        "flags": []
+    },
+    "lemon souffle": {
+        "calories": 169,
+        "flags": []
+    },
+    "orange souffle": {
+        "calories": 168,
+        "flags": []
+    },
+    "vanilla souffle": {
+        "calories": 188,
+        "flags": []
+    },
+    "chocolate souffle": {
+        "calories": 189,
+        "flags": []
+    },
+    "pineapple souffle": {
+        "calories": 196,
+        "flags": []
+    },
+    "apple mousse": {
+        "calories": 107,
+        "flags": []
+    },
+    "rich chocolate mousse": {
+        "calories": 188,
+        "flags": []
+    },
+    "mango mousse": {
+        "calories": 125,
+        "flags": []
+    },
+    "orange and pineapple cream": {
+        "calories": 101,
+        "flags": []
+    },
+    "charlotte rousse": {
+        "calories": 188,
+        "flags": []
+    },
+    "triffle pudding": {
+        "calories": 117,
+        "flags": []
+    },
+    "snow flakes pudding": {
+        "calories": 95,
+        "flags": []
+    },
+    "kulfi": {
+        "calories": 98,
+        "flags": []
+    },
+    "steamed orange pudding": {
+        "calories": 278,
+        "flags": []
+    },
+    "meringue and rice pudding": {
+        "calories": 113,
+        "flags": []
+    },
+    "cheese pudding": {
+        "calories": 285,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate pudding": {
+        "calories": 212,
+        "flags": []
+    },
+    "bread and butter pudding": {
+        "calories": 168,
+        "flags": []
+    },
+    "queen of pudding": {
+        "calories": 133,
+        "flags": []
+    },
+    "pineapple upside down pudding": {
+        "calories": 258,
+        "flags": []
+    },
+    "date and nut pie": {
+        "calories": 322,
+        "flags": []
+    },
+    "stewed apple with custard": {
+        "calories": 93,
+        "flags": []
+    },
+    "apple snowballs": {
+        "calories": 102,
+        "flags": []
+    },
+    "hot orange souffle": {
+        "calories": 180,
+        "flags": []
+    },
+    "hot chocolate souffle": {
+        "calories": 226,
+        "flags": []
+    },
+    "hot vanilla souffle": {
+        "calories": 193,
+        "flags": []
+    },
+    "plain burfi": {
+        "calories": 408,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "coconut burfi": {
+        "calories": 468,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "bottle gourd burfi": {
+        "calories": 276,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate burfi": {
+        "calories": 339,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cashewnut burfi": {
+        "calories": 422,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "gram flour burfi": {
+        "calories": 422,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "semolina ladoo with khoya": {
+        "calories": 429,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "semolina ladoo with coconut": {
+        "calories": 464,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "gram flour ladoo": {
+        "calories": 477,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "sesame ladoo": {
+        "calories": 397,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chenna murki": {
+        "calories": 253,
+        "flags": []
+    },
+    "milk cake": {
+        "calories": 127,
+        "flags": []
+    },
+    "ghujia/lavang latika": {
+        "calories": 769,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "gulab jamun with khoya": {
+        "calories": 586,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "mal pua": {
+        "calories": 567,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "shahi tukre": {
+        "calories": 190,
+        "flags": []
+    },
+    "potato pakora/pakoda": {
+        "calories": 677,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "onion pakora/pakoda": {
+        "calories": 675,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cauliflower pakora/pakoda": {
+        "calories": 672,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "mixed vegetable pakora/pakoda": {
+        "calories": 674,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach pakora/pakoda": {
+        "calories": 713,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "methi pakora/pakoda": {
+        "calories": 713,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "egg pakora/pakoda": {
+        "calories": 711,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "bread pakora/pakoda": {
+        "calories": 711,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer pakora/pakoda": {
+        "calories": 718,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "potato bonda": {
+        "calories": 633,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "potato samosa": {
+        "calories": 577,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "minced meat samosa": {
+        "calories": 621,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer and pea samosa": {
+        "calories": 624,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "mathri": {
+        "calories": 805,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "khasta kachori": {
+        "calories": 713,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "vegetable cutlet": {
+        "calories": 665,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "flattened rice cutlet": {
+        "calories": 702,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peanut cutlet": {
+        "calories": 699,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fish cutlet": {
+        "calories": 655,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer potato cutlet": {
+        "calories": 673,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach chickpeas cutlet": {
+        "calories": 688,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cheese toast": {
+        "calories": 785,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "vegetable burger": {
+        "calories": 520,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cheese pizza": {
+        "calories": 250,
+        "flags": []
+    },
+    "vegetable seekh kebab": {
+        "calories": 691,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "masala vada": {
+        "calories": 826,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peanut sago vada": {
+        "calories": 750,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "vegeterian scotch egg": {
+        "calories": 682,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer shaslik/tikka": {
+        "calories": 94,
+        "flags": []
+    },
+    "peanut brittle": {
+        "calories": 320,
+        "flags": []
+    },
+    "spring roll": {
+        "calories": 624,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "dry mango chutney": {
+        "calories": 298,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "peanut chutney": {
+        "calories": 258,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "coconut chutney": {
+        "calories": 266,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "mint and coriander chutney": {
+        "calories": 103,
+        "flags": []
+    },
+    "custard tart": {
+        "calories": 226,
+        "flags": []
+    },
+    "lemon tart": {
+        "calories": 303,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "jam tart": {
+        "calories": 361,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "orange cream tart": {
+        "calories": 197,
+        "flags": []
+    },
+    "pineapple tart": {
+        "calories": 195,
+        "flags": []
+    },
+    "cheese and mushroom tart": {
+        "calories": 246,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cottage cheese pie": {
+        "calories": 239,
+        "flags": []
+    },
+    "minced meat pie": {
+        "calories": 222,
+        "flags": []
+    },
+    "apple cinnamon pie": {
+        "calories": 259,
+        "flags": []
+    },
+    "lemon meringue pie": {
+        "calories": 224,
+        "flags": []
+    },
+    "chocolate meringue pie": {
+        "calories": 215,
+        "flags": []
+    },
+    "cream puffs": {
+        "calories": 221,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate eclairs": {
+        "calories": 239,
+        "flags": []
+    },
+    "cheese balls": {
+        "calories": 681,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "minced meat patties": {
+        "calories": 266,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cheese patties": {
+        "calories": 324,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "hot cheese souffle": {
+        "calories": 177,
+        "flags": []
+    },
+    "hot potato souffle": {
+        "calories": 126,
+        "flags": []
+    },
+    "hot fish souffle": {
+        "calories": 143,
+        "flags": []
+    },
+    "hot spinach souffle": {
+        "calories": 104,
+        "flags": []
+    },
+    "plain cream cake": {
+        "calories": 354,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "apple cake": {
+        "calories": 290,
+        "flags": []
+    },
+    "marble cake": {
+        "calories": 354,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate cake": {
+        "calories": 336,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "orange cake": {
+        "calories": 358,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "fruit loaf": {
+        "calories": 324,
+        "flags": []
+    },
+    "banana cake": {
+        "calories": 390,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate chiffon cake": {
+        "calories": 312,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "christmas cake": {
+        "calories": 373,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "strawberry and vanilla cake with butter icing": {
+        "calories": 371,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "eggless cake": {
+        "calories": 318,
+        "flags": []
+    },
+    "swiss roll": {
+        "calories": 252,
+        "flags": []
+    },
+    "pineapple pastry": {
+        "calories": 208,
+        "flags": []
+    },
+    "black forest pastry": {
+        "calories": 234,
+        "flags": []
+    },
+    "coconut finger": {
+        "calories": 275,
+        "flags": []
+    },
+    "pineapple cake": {
+        "calories": 196,
+        "flags": []
+    },
+    "chocolate walnut cookies": {
+        "calories": 425,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "chocolate chip cookies": {
+        "calories": 425,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "sweet plain biscuit": {
+        "calories": 381,
+        "flags": [
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "chocolate biscuit": {
+        "calories": 380,
+        "flags": [
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "coconut biscuit": {
+        "calories": 435,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sweet and salty biscuit": {
+        "calories": 408,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peanut biscuit": {
+        "calories": 401,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "pin wheel biscuit": {
+        "calories": 405,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "saffron biscuit": {
+        "calories": 459,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "masala biscuit": {
+        "calories": 394,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "ice box cookies": {
+        "calories": 374,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "ginger bread man": {
+        "calories": 365,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "danish cookies": {
+        "calories": 475,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "short bread cookies": {
+        "calories": 443,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "coffee biscuit": {
+        "calories": 417,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "melting moments": {
+        "calories": 438,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "ginger biscuit": {
+        "calories": 418,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "soyabean muthias": {
+        "calories": 839,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "soyabean tikki": {
+        "calories": 698,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "soyabean namak paras": {
+        "calories": 838,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peanut burfi": {
+        "calories": 551,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach peanut namak paras": {
+        "calories": 740,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "gram flour and semolina chilla/cheela/savory pancake": {
+        "calories": 759,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "rice moong dal cheela": {
+        "calories": 798,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "split bengal gram sweet rice": {
+        "calories": 190,
+        "flags": []
+    },
+    "sweet poori": {
+        "calories": 783,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "wheat flour and moong dal burfi": {
+        "calories": 441,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "spinach burfi": {
+        "calories": 121,
+        "flags": []
+    },
+    "sweet split chickpea roti": {
+        "calories": 367,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "sprouted moong daliya": {
+        "calories": 112,
+        "flags": []
+    },
+    "sprouted moong poha": {
+        "calories": 193,
+        "flags": []
+    },
+    "pearl millet ladoo": {
+        "calories": 320,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "paushtik ladoo": {
+        "calories": 486,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "paushtik roti": {
+        "calories": 149,
+        "flags": []
+    },
+    "semolina carrot vada": {
+        "calories": 700,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "dhokla": {
+        "calories": 216,
+        "flags": []
+    },
+    "kashmiri tea": {
+        "calories": 25,
+        "flags": []
+    },
+    "steeped hot coffee": {
+        "calories": 16,
+        "flags": []
+    },
+    "hot chocolate": {
+        "calories": 90,
+        "flags": []
+    },
+    "cold coffee": {
+        "calories": 83,
+        "flags": []
+    },
+    "banana milkshake with ice cream": {
+        "calories": 76,
+        "flags": []
+    },
+    "flavoured milkshake": {
+        "calories": 67,
+        "flags": []
+    },
+    "jal jeera": {
+        "calories": 30,
+        "flags": []
+    },
+    "gingo": {
+        "calories": 48,
+        "flags": []
+    },
+    "mintade": {
+        "calories": 40,
+        "flags": []
+    },
+    "canjee": {
+        "calories": 7,
+        "flags": []
+    },
+    "cauliflower canjee": {
+        "calories": 7,
+        "flags": []
+    },
+    "potato canjee": {
+        "calories": 16,
+        "flags": []
+    },
+    "vermicelli porridge": {
+        "calories": 78,
+        "flags": []
+    },
+    "semolina upma": {
+        "calories": 148,
+        "flags": []
+    },
+    "vermicelli upma": {
+        "calories": 149,
+        "flags": []
+    },
+    "rice upma": {
+        "calories": 151,
+        "flags": []
+    },
+    "bread upma": {
+        "calories": 130,
+        "flags": []
+    },
+    "vegetable upma": {
+        "calories": 146,
+        "flags": []
+    },
+    "poha": {
+        "calories": 295,
+        "flags": []
+    },
+    "vegetable poha": {
+        "calories": 181,
+        "flags": []
+    },
+    "moong dal stuffed cheela/chilla": {
+        "calories": 155,
+        "flags": []
+    },
+    "paneer stuffed cheela/chilla": {
+        "calories": 205,
+        "flags": []
+    },
+    "indian style egg bhujia": {
+        "calories": 103,
+        "flags": []
+    },
+    "french omelette/omlet": {
+        "calories": 211,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "puffy omelette/omlet": {
+        "calories": 188,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "orange omelette/omlet": {
+        "calories": 195,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cheese and mushroom omelette/omlet": {
+        "calories": 206,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "spanish omelette/omlet": {
+        "calories": 157,
+        "flags": []
+    },
+    "mixed stock": {
+        "calories": 25,
+        "flags": []
+    },
+    "meat stock": {
+        "calories": 24,
+        "flags": []
+    },
+    "white stock": {
+        "calories": 7,
+        "flags": []
+    },
+    "meat consomme": {
+        "calories": 30,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "consomme au julienne": {
+        "calories": 28,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "consomme au vermicelli": {
+        "calories": 30,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "green pea soup": {
+        "calories": 40,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "spinach soup": {
+        "calories": 33,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "mixed vegetable soup": {
+        "calories": 36,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cheese soup": {
+        "calories": 41,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "mulligatawny soup": {
+        "calories": 54,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of carrot soup": {
+        "calories": 60,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of broccoli soup": {
+        "calories": 56,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cream of potato soup": {
+        "calories": 60,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "almond soup": {
+        "calories": 79,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "cold cucumber cream soup": {
+        "calories": 12,
+        "flags": []
+    },
+    "cold tomato soup": {
+        "calories": 17,
+        "flags": []
+    },
+    "chicken stew": {
+        "calories": 128,
+        "flags": []
+    },
+    "veg paneer stew": {
+        "calories": 146,
+        "flags": []
+    },
+    "onion-green chilli parantha/paratha": {
+        "calories": 191,
+        "flags": []
+    },
+    "methi parantha/paratha": {
+        "calories": 148,
+        "flags": []
+    },
+    "bathua poori": {
+        "calories": 599,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "gram flour poori": {
+        "calories": 698,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "beetroot poori": {
+        "calories": 528,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peas poori": {
+        "calories": 593,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "peas kachori": {
+        "calories": 585,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "pizza": {
+        "calories": 147,
+        "flags": []
+    },
+    "bacon and mushroom pancake": {
+        "calories": 158,
+        "flags": []
+    },
+    "cheese and tomato pancake": {
+        "calories": 147,
+        "flags": []
+    },
+    "minced meat pancake": {
+        "calories": 116,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "eggplant/brinjal rice": {
+        "calories": 185,
+        "flags": []
+    },
+    "kashmiri 'tahar'": {
+        "calories": 98,
+        "flags": []
+    },
+    "cumin pulao": {
+        "calories": 135,
+        "flags": []
+    },
+    "peas pulao": {
+        "calories": 109,
+        "flags": []
+    },
+    "split bengal gram dal and vegetable pulao": {
+        "calories": 117,
+        "flags": []
+    },
+    "black channa pulao/ bengal gram pulao": {
+        "calories": 126,
+        "flags": []
+    },
+    "mutton pulao": {
+        "calories": 131,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "chicken pulao": {
+        "calories": 108,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "mexican rice": {
+        "calories": 121,
+        "flags": []
+    },
+    "plain khitchdi": {
+        "calories": 57,
+        "flags": []
+    },
+    "instant idli": {
+        "calories": 247,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "plain dosa": {
+        "calories": 381,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "masala dosa mixed vegetable fillings": {
+        "calories": 145,
+        "flags": []
+    },
+    "masala dosa paneer fillings": {
+        "calories": 243,
+        "flags": []
+    },
+    "uttapam": {
+        "calories": 256,
+        "flags": []
+    },
+    "appam": {
+        "calories": 268,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "beans and macaroni": {
+        "calories": 136,
+        "flags": []
+    },
+    "spaghetti bolognese": {
+        "calories": 97,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "meat and macaroni casserole": {
+        "calories": 162,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "spaghetti with meat balls and tomato sauce": {
+        "calories": 158,
+        "flags": []
+    },
+    "spaghetti with paneer balls and tomato sauce": {
+        "calories": 159,
+        "flags": []
+    },
+    "lasagne with meat sauce": {
+        "calories": 63,
+        "flags": []
+    },
+    "lasagne with vegetables": {
+        "calories": 49,
+        "flags": []
+    },
+    "home made egg noodles": {
+        "calories": 241,
+        "flags": []
+    },
+    "sour lentils": {
+        "calories": 35,
+        "flags": []
+    },
+    "urad special dehusked": {
+        "calories": 69,
+        "flags": []
+    },
+    "arhar with spinach": {
+        "calories": 53,
+        "flags": []
+    },
+    "moong dal with vadi": {
+        "calories": 24,
+        "flags": []
+    },
+    "rasam with tamarind": {
+        "calories": 27,
+        "flags": []
+    },
+    "rasam with lemon": {
+        "calories": 24,
+        "flags": []
+    },
+    "green gram whole with baghar": {
+        "calories": 63,
+        "flags": []
+    },
+    "urad sabut special": {
+        "calories": 79,
+        "flags": []
+    },
+    "kabuli channa curry": {
+        "calories": 69,
+        "flags": []
+    },
+    "besan gatte curry": {
+        "calories": 189,
+        "flags": []
+    },
+    "dry masala chops": {
+        "calories": 135,
+        "flags": []
+    },
+    "mutton korma": {
+        "calories": 116,
+        "flags": []
+    },
+    "shahi keema kofta curry": {
+        "calories": 418,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "minced meat ball curry": {
+        "calories": 110,
+        "flags": []
+    },
+    "boti kebab": {
+        "calories": 133,
+        "flags": []
+    },
+    "mutton seekh kebab": {
+        "calories": 134,
+        "flags": []
+    },
+    "indian lamb and egg curry": {
+        "calories": 336,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "soya chunks sweet and sour": {
+        "calories": 501,
+        "flags": [
+            "High Calorie",
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "soya chunks korma": {
+        "calories": 131,
+        "flags": []
+    },
+    "mushroom matar": {
+        "calories": 71,
+        "flags": []
+    },
+    "soya chunks and peas": {
+        "calories": 83,
+        "flags": []
+    },
+    "vegetable yakhni": {
+        "calories": 406,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "spinach mushroom": {
+        "calories": 48,
+        "flags": []
+    },
+    "vegetarian nargisi kofta curry": {
+        "calories": 332,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "roast chicken": {
+        "calories": 200,
+        "flags": []
+    },
+    "shahi chicken masala": {
+        "calories": 164,
+        "flags": []
+    },
+    "tomato chicken": {
+        "calories": 112,
+        "flags": []
+    },
+    "creamy chicken": {
+        "calories": 153,
+        "flags": []
+    },
+    "broccoli chicken ala king": {
+        "calories": 120,
+        "flags": []
+    },
+    "ginger chicken": {
+        "calories": 129,
+        "flags": []
+    },
+    "chicken sweet and sour": {
+        "calories": 445,
+        "flags": [
+            "High Calorie",
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "chicken korma": {
+        "calories": 148,
+        "flags": []
+    },
+    "bengal fish curry": {
+        "calories": 109,
+        "flags": []
+    },
+    "fish finger": {
+        "calories": 543,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fish in coconut milk": {
+        "calories": 86,
+        "flags": []
+    },
+    "prawn curry": {
+        "calories": 110,
+        "flags": []
+    },
+    "baked stuffed fish": {
+        "calories": 122,
+        "flags": []
+    },
+    "fish pie": {
+        "calories": 121,
+        "flags": []
+    },
+    "crispy baked fish": {
+        "calories": 138,
+        "flags": []
+    },
+    "fish souffle": {
+        "calories": 140,
+        "flags": []
+    },
+    "potato curry": {
+        "calories": 90,
+        "flags": []
+    },
+    "egg curry": {
+        "calories": 118,
+        "flags": []
+    },
+    "vegetable curry with coconut": {
+        "calories": 83,
+        "flags": []
+    },
+    "curd with potatoes": {
+        "calories": 60,
+        "flags": []
+    },
+    "potato kofta curry": {
+        "calories": 455,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "yam kofta curry": {
+        "calories": 323,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "jackfruit kofta curry": {
+        "calories": 321,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "spinach and potato": {
+        "calories": 57,
+        "flags": []
+    },
+    "mooli bhujia": {
+        "calories": 91,
+        "flags": []
+    },
+    "bathua bhujia": {
+        "calories": 91,
+        "flags": []
+    },
+    "cabbage rolls": {
+        "calories": 125,
+        "flags": []
+    },
+    "dry arbi": {
+        "calories": 135,
+        "flags": []
+    },
+    "masala arbi": {
+        "calories": 185,
+        "flags": []
+    },
+    "peas brinjal bhartha": {
+        "calories": 85,
+        "flags": []
+    },
+    "okra/lady's fingers fry": {
+        "calories": 111,
+        "flags": []
+    },
+    "crispy okra/crispy lady's fingers": {
+        "calories": 658,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "beans foogath": {
+        "calories": 105,
+        "flags": []
+    },
+    "stuffed bittergourd": {
+        "calories": 218,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "jackfruit/kathal": {
+        "calories": 489,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "yam fried": {
+        "calories": 492,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cauliflower, pea and potato bhujia": {
+        "calories": 96,
+        "flags": []
+    },
+    "vegetable jalfrezi": {
+        "calories": 68,
+        "flags": []
+    },
+    "vegetables stir fry": {
+        "calories": 31,
+        "flags": []
+    },
+    "broccoli delight": {
+        "calories": 41,
+        "flags": []
+    },
+    "dhansak": {
+        "calories": 83,
+        "flags": []
+    },
+    "cauliflower basket": {
+        "calories": 91,
+        "flags": []
+    },
+    "stuffed bottle gourd": {
+        "calories": 93,
+        "flags": []
+    },
+    "ducheese potato": {
+        "calories": 141,
+        "flags": []
+    },
+    "roast potatoes": {
+        "calories": 87,
+        "flags": []
+    },
+    "stuffed baked potatoes": {
+        "calories": 100,
+        "flags": []
+    },
+    "potato nests": {
+        "calories": 112,
+        "flags": []
+    },
+    "parsley potato": {
+        "calories": 120,
+        "flags": []
+    },
+    "creamed spinach and mushroom": {
+        "calories": 420,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fricassee of mushroom": {
+        "calories": 107,
+        "flags": []
+    },
+    "cauliflower au gratin": {
+        "calories": 146,
+        "flags": []
+    },
+    "vegetable and cheese pie": {
+        "calories": 127,
+        "flags": []
+    },
+    "spinach souffle": {
+        "calories": 150,
+        "flags": []
+    },
+    "beetroot and egg salad": {
+        "calories": 85,
+        "flags": []
+    },
+    "sour cream potato salad": {
+        "calories": 122,
+        "flags": []
+    },
+    "tossed green salad": {
+        "calories": 50,
+        "flags": []
+    },
+    "spring basket salad": {
+        "calories": 160,
+        "flags": []
+    },
+    "cucumber and yogurt salad": {
+        "calories": 36,
+        "flags": []
+    },
+    "chicken and tomato towers": {
+        "calories": 101,
+        "flags": []
+    },
+    "jellied sunshine fruit salad": {
+        "calories": 49,
+        "flags": []
+    },
+    "tomato aspic": {
+        "calories": 50,
+        "flags": []
+    },
+    "frozen frosty fruit salad": {
+        "calories": 104,
+        "flags": []
+    },
+    "french dressing": {
+        "calories": 734,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "mayonnaise without eggs": {
+        "calories": 329,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "curd dressing": {
+        "calories": 79,
+        "flags": []
+    },
+    "carrot raita": {
+        "calories": 65,
+        "flags": []
+    },
+    "pumpkin raita": {
+        "calories": 56,
+        "flags": []
+    },
+    "mint and peanut raita": {
+        "calories": 112,
+        "flags": []
+    },
+    "spinach raita": {
+        "calories": 53,
+        "flags": []
+    },
+    "bathua raita": {
+        "calories": 54,
+        "flags": []
+    },
+    "pineapple raita": {
+        "calories": 68,
+        "flags": []
+    },
+    "banana raita": {
+        "calories": 89,
+        "flags": []
+    },
+    "mango raita": {
+        "calories": 67,
+        "flags": []
+    },
+    "guava raita": {
+        "calories": 64,
+        "flags": []
+    },
+    "grapes raita": {
+        "calories": 73,
+        "flags": []
+    },
+    "bottle gourd kheer": {
+        "calories": 84,
+        "flags": []
+    },
+    "pumpkin kheer": {
+        "calories": 86,
+        "flags": []
+    },
+    "apple kheer": {
+        "calories": 81,
+        "flags": []
+    },
+    "vanilla ice cream without egg": {
+        "calories": 229,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "vanilla ice cream with egg": {
+        "calories": 215,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "strawberry ice cream": {
+        "calories": 216,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocochip ice cream": {
+        "calories": 241,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "choconut ice cream": {
+        "calories": 274,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "pear chocholate sunday": {
+        "calories": 183,
+        "flags": []
+    },
+    "chocolate sauce": {
+        "calories": 263,
+        "flags": []
+    },
+    "coffee ice cream": {
+        "calories": 151,
+        "flags": []
+    },
+    "coffee pear alaska": {
+        "calories": 204,
+        "flags": []
+    },
+    "crunchy butterscotch": {
+        "calories": 277,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "peach melba ice cream": {
+        "calories": 201,
+        "flags": []
+    },
+    "vanilla ice cream with apples in hot cherry sauce": {
+        "calories": 196,
+        "flags": []
+    },
+    "grape and orange whip": {
+        "calories": 57,
+        "flags": []
+    },
+    "honey banana cream": {
+        "calories": 125,
+        "flags": []
+    },
+    "raspberry bavarian cream": {
+        "calories": 150,
+        "flags": []
+    },
+    "fruit delight": {
+        "calories": 107,
+        "flags": []
+    },
+    "creamy chocolate mousse": {
+        "calories": 231,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cold lemon souffle": {
+        "calories": 170,
+        "flags": []
+    },
+    "cold orange souffle": {
+        "calories": 173,
+        "flags": []
+    },
+    "cold pineapple souffle": {
+        "calories": 181,
+        "flags": []
+    },
+    "cold vanilla souffle": {
+        "calories": 180,
+        "flags": []
+    },
+    "cold chocolate souffle": {
+        "calories": 188,
+        "flags": []
+    },
+    "stewed fruit": {
+        "calories": 74,
+        "flags": []
+    },
+    "apricot fool": {
+        "calories": 241,
+        "flags": []
+    },
+    "pavlova": {
+        "calories": 201,
+        "flags": []
+    },
+    "apple crumb pudding": {
+        "calories": 221,
+        "flags": []
+    },
+    "steamed cake with chocolate sauce": {
+        "calories": 302,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "hot lemon souffle": {
+        "calories": 155,
+        "flags": []
+    },
+    "gulab jamun with milk powder": {
+        "calories": 471,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "chum chum": {
+        "calories": 130,
+        "flags": []
+    },
+    "dil bahar": {
+        "calories": 130,
+        "flags": []
+    },
+    "rasbhari": {
+        "calories": 130,
+        "flags": []
+    },
+    "rajbogh": {
+        "calories": 134,
+        "flags": []
+    },
+    "rasgulla": {
+        "calories": 119,
+        "flags": []
+    },
+    "rasmalai": {
+        "calories": 136,
+        "flags": []
+    },
+    "khoa coconut burfi": {
+        "calories": 411,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "danedar burfi": {
+        "calories": 103,
+        "flags": []
+    },
+    "semolina burfi": {
+        "calories": 349,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "pumpkin coconut burfi": {
+        "calories": 186,
+        "flags": []
+    },
+    "khoa ladoo": {
+        "calories": 396,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "wheat and gram flour ladoo": {
+        "calories": 502,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "semolina ladoo with nuts": {
+        "calories": 442,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sesame chickpeas brittle": {
+        "calories": 283,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "murmura chikki": {
+        "calories": 254,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "masala onion pakora/pakoda": {
+        "calories": 552,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "masala green chilli pakora/pakoda": {
+        "calories": 669,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "chicken pakora/pakoda": {
+        "calories": 590,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fish pakora/pakoda": {
+        "calories": 577,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "paneer cutlet": {
+        "calories": 672,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sago cutlet/vadas": {
+        "calories": 559,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "poshtik cutlet": {
+        "calories": 496,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "egg cutlet": {
+        "calories": 575,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "minced meat cutlet": {
+        "calories": 532,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "vegetable samosa": {
+        "calories": 443,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "plain urad dal vada": {
+        "calories": 746,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "masala urad dal vada": {
+        "calories": 704,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "khaman": {
+        "calories": 55,
+        "flags": []
+    },
+    "instant dhokla": {
+        "calories": 207,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "tomato ginger chutney": {
+        "calories": 45,
+        "flags": []
+    },
+    "mint tomato chutney": {
+        "calories": 44,
+        "flags": []
+    },
+    "coriander chutney": {
+        "calories": 43,
+        "flags": []
+    },
+    "gooseberry chutney": {
+        "calories": 43,
+        "flags": []
+    },
+    "walnut chutney": {
+        "calories": 370,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "saunth/sonth chutney with ginger": {
+        "calories": 84,
+        "flags": []
+    },
+    "gun powder chutney": {
+        "calories": 312,
+        "flags": []
+    },
+    "dessicated coconut chutney": {
+        "calories": 346,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "curd mint dip": {
+        "calories": 76,
+        "flags": []
+    },
+    "curd vegetable dip": {
+        "calories": 56,
+        "flags": []
+    },
+    "mayonnaise vegetable dip": {
+        "calories": 241,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "tomato and cucumber sandwich": {
+        "calories": 151,
+        "flags": []
+    },
+    "tomato sandwich": {
+        "calories": 190,
+        "flags": []
+    },
+    "french sandwich": {
+        "calories": 187,
+        "flags": []
+    },
+    "peanut butter cucumber sandwich": {
+        "calories": 243,
+        "flags": []
+    },
+    "mint and peanut sandwich": {
+        "calories": 274,
+        "flags": []
+    },
+    "spicy chutney sandwich": {
+        "calories": 250,
+        "flags": []
+    },
+    "chicken walnut sandwich": {
+        "calories": 286,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "rolled sandwich": {
+        "calories": 293,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "ribbon sandwich": {
+        "calories": 239,
+        "flags": []
+    },
+    "checker board sandwich": {
+        "calories": 348,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "submarine sandwich": {
+        "calories": 217,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cheese open sandwich": {
+        "calories": 274,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "sunset and sunrise open sandwich": {
+        "calories": 241,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "danish luncheon sandwich": {
+        "calories": 194,
+        "flags": []
+    },
+    "chicken and corn open sandwich": {
+        "calories": 188,
+        "flags": []
+    },
+    "chocolate sponge cake": {
+        "calories": 240,
+        "flags": []
+    },
+    "chocolate swiss roll": {
+        "calories": 306,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "lemon curd filling": {
+        "calories": 226,
+        "flags": []
+    },
+    "jam filling": {
+        "calories": 185,
+        "flags": []
+    },
+    "chocolate pastry": {
+        "calories": 243,
+        "flags": []
+    },
+    "assorted pastry": {
+        "calories": 231,
+        "flags": []
+    },
+    "orange gateau": {
+        "calories": 178,
+        "flags": []
+    },
+    "black forest gateau": {
+        "calories": 218,
+        "flags": []
+    },
+    "lemon cake": {
+        "calories": 374,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "dundee cake": {
+        "calories": 397,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "victorian sandwich cake": {
+        "calories": 373,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "chocolate eggless cake": {
+        "calories": 312,
+        "flags": []
+    },
+    "orange eggless cake": {
+        "calories": 356,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "chocolate glace icing": {
+        "calories": 436,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "butter icing": {
+        "calories": 501,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "chocolate butter icing": {
+        "calories": 470,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "almond biscuit": {
+        "calories": 408,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "orange biscuit": {
+        "calories": 355,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "gingerman biscuit": {
+        "calories": 357,
+        "flags": [
+            "High Carb",
+            "High Sodium"
+        ]
+    },
+    "coffee drops": {
+        "calories": 443,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "christmas biscuit": {
+        "calories": 406,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "christmas wreath biscuit": {
+        "calories": 386,
+        "flags": [
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "christmas bell biscuit": {
+        "calories": 405,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "christmas star biscuit": {
+        "calories": 392,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "christmas tree biscuit": {
+        "calories": 386,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "chocolate cream shells": {
+        "calories": 427,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "jelly biscuit": {
+        "calories": 405,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "cherry and walnut cookies": {
+        "calories": 423,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "cheese straws": {
+        "calories": 382,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "butterfly biscuit": {
+        "calories": 341,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "flan pastry": {
+        "calories": 446,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fruit flan": {
+        "calories": 261,
+        "flags": []
+    },
+    "orange cream flan": {
+        "calories": 280,
+        "flags": []
+    },
+    "fruit puree tart": {
+        "calories": 286,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "apple banana pie": {
+        "calories": 244,
+        "flags": []
+    },
+    "lemon chiffon pie": {
+        "calories": 259,
+        "flags": []
+    },
+    "orange chiffon pie": {
+        "calories": 208,
+        "flags": []
+    },
+    "cream buns": {
+        "calories": 216,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "savoury puffs": {
+        "calories": 191,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "choux swans": {
+        "calories": 216,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "potato aigrettes": {
+        "calories": 530,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cream horns": {
+        "calories": 408,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "savoury cheese horns": {
+        "calories": 295,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "paneer patties": {
+        "calories": 339,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "vegetable patties": {
+        "calories": 262,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "pearl millet infant food": {
+        "calories": 362,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "sajina": {
+        "calories": 345,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "cereal mix": {
+        "calories": 121,
+        "flags": []
+    },
+    "pulse mix": {
+        "calories": 83,
+        "flags": []
+    },
+    "shishu ahar": {
+        "calories": 93,
+        "flags": []
+    },
+    "cereal pulse mix with amylase rice flour": {
+        "calories": 152,
+        "flags": []
+    },
+    "banana groundnut paste/puree": {
+        "calories": 213,
+        "flags": []
+    },
+    "rice dal porridge": {
+        "calories": 383,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "lentils and semolina porridge": {
+        "calories": 117,
+        "flags": []
+    },
+    "spinach khichri": {
+        "calories": 102,
+        "flags": []
+    },
+    "vegetable mix": {
+        "calories": 174,
+        "flags": []
+    },
+    "lentils and wheat porridge": {
+        "calories": 53,
+        "flags": []
+    },
+    "maize porridge": {
+        "calories": 90,
+        "flags": []
+    },
+    "spinach peanut burfi": {
+        "calories": 105,
+        "flags": []
+    },
+    "split bengal gram burfi/fudge": {
+        "calories": 287,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "chickpea flour cookies": {
+        "calories": 207,
+        "flags": []
+    },
+    "pearl millet mathri": {
+        "calories": 785,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sesame biscuit": {
+        "calories": 424,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "fermented bengal gram vada": {
+        "calories": 658,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "poshtik namak paras": {
+        "calories": 613,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "soya chikki": {
+        "calories": 424,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "besan bathua chilla/cheela": {
+        "calories": 374,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "wheat flour and nuts ladoos": {
+        "calories": 392,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "gram flour and semolina dhokla": {
+        "calories": 199,
+        "flags": []
+    },
+    "atta dal burfi": {
+        "calories": 299,
+        "flags": []
+    },
+    "soya roti": {
+        "calories": 284,
+        "flags": []
+    },
+    "poshtik khichdi/khichri": {
+        "calories": 93,
+        "flags": []
+    },
+    "namkeen daliya": {
+        "calories": 295,
+        "flags": []
+    },
+    "sprouts upma": {
+        "calories": 316,
+        "flags": []
+    },
+    "semolina idli": {
+        "calories": 206,
+        "flags": []
+    },
+    "poshtik chilla/cheela": {
+        "calories": 160,
+        "flags": []
+    },
+    "cauliflower potato canjee": {
+        "calories": 17,
+        "flags": []
+    },
+    "creamed spinach": {
+        "calories": 97,
+        "flags": []
+    },
+    "mango milkshake with ice cream": {
+        "calories": 68,
+        "flags": []
+    },
+    "pineapple milkshake with ice cream": {
+        "calories": 68,
+        "flags": []
+    },
+    "orange milkshake with ice cream": {
+        "calories": 68,
+        "flags": []
+    },
+    "woodapple juice": {
+        "calories": 34,
+        "flags": []
+    },
+    "sattu drink": {
+        "calories": 23,
+        "flags": []
+    },
+    "apple and honey sorbet": {
+        "calories": 121,
+        "flags": []
+    },
+    "thandai": {
+        "calories": 101,
+        "flags": []
+    },
+    "cucumber sharbat": {
+        "calories": 27,
+        "flags": []
+    },
+    "apple oats chia seed smoothie": {
+        "calories": 86,
+        "flags": []
+    },
+    "nannari sharbat": {
+        "calories": 89,
+        "flags": []
+    },
+    "semolina milk drink": {
+        "calories": 44,
+        "flags": []
+    },
+    "saffron milk": {
+        "calories": 102,
+        "flags": []
+    },
+    "black rice kheer": {
+        "calories": 148,
+        "flags": []
+    },
+    "coconut kheer": {
+        "calories": 163,
+        "flags": []
+    },
+    "apple sago payasam": {
+        "calories": 136,
+        "flags": []
+    },
+    "kesari bath": {
+        "calories": 245,
+        "flags": []
+    },
+    "putharekulu": {
+        "calories": 318,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "mango malpua": {
+        "calories": 335,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "mango vanilla custard": {
+        "calories": 148,
+        "flags": []
+    },
+    "kiwi granola pudding": {
+        "calories": 281,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "oats burfi": {
+        "calories": 425,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "lotus seed halwa": {
+        "calories": 371,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "amaranth ladoo": {
+        "calories": 454,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "chhena poda": {
+        "calories": 345,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "sweet couscous dessert": {
+        "calories": 196,
+        "flags": []
+    },
+    "sweetened yogurt": {
+        "calories": 107,
+        "flags": []
+    },
+    "thickened sweetened milk": {
+        "calories": 103,
+        "flags": []
+    },
+    "gram flour halwa": {
+        "calories": 277,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "prawn sandwich": {
+        "calories": 170,
+        "flags": []
+    },
+    "watercress sandwich": {
+        "calories": 229,
+        "flags": []
+    },
+    "fish sandwich": {
+        "calories": 150,
+        "flags": []
+    },
+    "kidney bean sandwich with cottage cheese": {
+        "calories": 177,
+        "flags": []
+    },
+    "finger millet biscuit": {
+        "calories": 459,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "buttermilk biscuit": {
+        "calories": 323,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "lemon cookies": {
+        "calories": 394,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "sweet potato biscuit": {
+        "calories": 296,
+        "flags": []
+    },
+    "raspberry shortbread cookies": {
+        "calories": 441,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "pumpkin cookies": {
+        "calories": 218,
+        "flags": []
+    },
+    "greenpea cookies": {
+        "calories": 159,
+        "flags": []
+    },
+    "sunflower cookies": {
+        "calories": 521,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cardamom cookies": {
+        "calories": 400,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "hazelnut cookies": {
+        "calories": 493,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "milk cookies": {
+        "calories": 459,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "cranberry cookies": {
+        "calories": 272,
+        "flags": []
+    },
+    "olive biscuit": {
+        "calories": 438,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "tutti fruitti biscuit": {
+        "calories": 421,
+        "flags": [
+            "High Calorie",
+            "High Carb",
+            "High Fat"
+        ]
+    },
+    "peach blueberry preserves": {
+        "calories": 177,
+        "flags": []
+    },
+    "pear preserves": {
+        "calories": 101,
+        "flags": []
+    },
+    "starfruit preserves": {
+        "calories": 129,
+        "flags": []
+    },
+    "gooseberry pickle": {
+        "calories": 279,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "lotus stem pickle": {
+        "calories": 103,
+        "flags": []
+    },
+    "date pickle": {
+        "calories": 182,
+        "flags": []
+    },
+    "garlic pickle": {
+        "calories": 414,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "fermented bamboo shoot pickle": {
+        "calories": 60,
+        "flags": []
+    },
+    "sweet peach pickle": {
+        "calories": 145,
+        "flags": []
+    },
+    "pickled mustard greens": {
+        "calories": 13,
+        "flags": []
+    },
+    "small onion pickle": {
+        "calories": 17,
+        "flags": []
+    },
+    "green tomato pickle": {
+        "calories": 193,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "pickled cabbage": {
+        "calories": 14,
+        "flags": []
+    },
+    "coconut pickle": {
+        "calories": 517,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "potato pickle": {
+        "calories": 369,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "mango murabba candy": {
+        "calories": 293,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "afghani chicken": {
+        "calories": 152,
+        "flags": []
+    },
+    "fish orly": {
+        "calories": 564,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "hariyali fish tikka": {
+        "calories": 150,
+        "flags": []
+    },
+    "chicken manchurian": {
+        "calories": 142,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "handi chicken": {
+        "calories": 166,
+        "flags": []
+    },
+    "lemon chicken": {
+        "calories": 170,
+        "flags": []
+    },
+    "lemon butter fish": {
+        "calories": 160,
+        "flags": []
+    },
+    "baked eggs in tomato sauce": {
+        "calories": 80,
+        "flags": []
+    },
+    "egg in a pepper": {
+        "calories": 129,
+        "flags": []
+    },
+    "spinach mushroom scrambled egg": {
+        "calories": 159,
+        "flags": []
+    },
+    "corn omelette/omlet": {
+        "calories": 167,
+        "flags": []
+    },
+    "cajun chicken": {
+        "calories": 185,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "paaner do pyaza": {
+        "calories": 128,
+        "flags": []
+    },
+    "cabbage manchurian": {
+        "calories": 224,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "gobi 65": {
+        "calories": 278,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "paneer lababdar": {
+        "calories": 105,
+        "flags": []
+    },
+    "roasted cauliflower steak": {
+        "calories": 79,
+        "flags": []
+    },
+    "sauteed radishes with green beans": {
+        "calories": 94,
+        "flags": []
+    },
+    "garlic chutney/poondu chutney": {
+        "calories": 256,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "schezwan chutney": {
+        "calories": 205,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "onion chutney": {
+        "calories": 144,
+        "flags": []
+    },
+    "dates chutney": {
+        "calories": 104,
+        "flags": []
+    },
+    "chicken salad": {
+        "calories": 338,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "macaroni salad": {
+        "calories": 262,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cabbage raita": {
+        "calories": 85,
+        "flags": []
+    },
+    "pomegranate raita": {
+        "calories": 73,
+        "flags": []
+    },
+    "onion raita": {
+        "calories": 72,
+        "flags": []
+    },
+    "green chilli raita": {
+        "calories": 77,
+        "flags": []
+    },
+    "kale salad": {
+        "calories": 178,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "spinach and paneer souffle": {
+        "calories": 186,
+        "flags": []
+    },
+    "masala souffle": {
+        "calories": 124,
+        "flags": []
+    },
+    "chicken and cheese souffle": {
+        "calories": 182,
+        "flags": []
+    },
+    "tamarind chutney": {
+        "calories": 109,
+        "flags": []
+    },
+    "pav bhaji masala": {
+        "calories": 230,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "green chutney": {
+        "calories": 79,
+        "flags": []
+    },
+    "sago khitchdi/khichri": {
+        "calories": 187,
+        "flags": []
+    },
+    "gram flour chilla/cheela": {
+        "calories": 136,
+        "flags": []
+    },
+    "vegetable namkeen jave": {
+        "calories": 112,
+        "flags": []
+    },
+    "khakhra": {
+        "calories": 178,
+        "flags": []
+    },
+    "moong bean dosa": {
+        "calories": 286,
+        "flags": []
+    },
+    "methi thepla": {
+        "calories": 346,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "rice puttu": {
+        "calories": 82,
+        "flags": []
+    },
+    "buckwheat pancake": {
+        "calories": 263,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "quinoa khichdi/khichri": {
+        "calories": 64,
+        "flags": []
+    },
+    "khakhra chaat": {
+        "calories": 359,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "banana appam": {
+        "calories": 470,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "veg manchurian": {
+        "calories": 586,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "pav bhaji": {
+        "calories": 97,
+        "flags": []
+    },
+    "rice murukku": {
+        "calories": 594,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "bhel puri": {
+        "calories": 510,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "semolina dhokla": {
+        "calories": 195,
+        "flags": []
+    },
+    "spicy corn chaat": {
+        "calories": 480,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "jackfruit fritters": {
+        "calories": 598,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "banana chips": {
+        "calories": 666,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "wheat cake": {
+        "calories": 315,
+        "flags": []
+    },
+    "mango cheesecake": {
+        "calories": 152,
+        "flags": []
+    },
+    "carrot cake": {
+        "calories": 256,
+        "flags": []
+    },
+    "semolina cake": {
+        "calories": 374,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "finger millet cake": {
+        "calories": 279,
+        "flags": []
+    },
+    "honey cake": {
+        "calories": 334,
+        "flags": []
+    },
+    "almond cardamom cake": {
+        "calories": 356,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "tutti frutti cake": {
+        "calories": 348,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "ham and bean soup": {
+        "calories": 96,
+        "flags": []
+    },
+    "whey soup": {
+        "calories": 69,
+        "flags": []
+    },
+    "bottle gourd soup": {
+        "calories": 23,
+        "flags": []
+    },
+    "baked potato soup": {
+        "calories": 147,
+        "flags": []
+    },
+    "pumpkin soup": {
+        "calories": 40,
+        "flags": []
+    },
+    "sweet corn soup": {
+        "calories": 32,
+        "flags": []
+    },
+    "paneer soup": {
+        "calories": 48,
+        "flags": []
+    },
+    "curried cauliflower soup": {
+        "calories": 37,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "millet soup": {
+        "calories": 56,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "lemon coriander soup": {
+        "calories": 108,
+        "flags": []
+    },
+    "garlic soup": {
+        "calories": 195,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "dal makhani": {
+        "calories": 74,
+        "flags": []
+    },
+    "dalma": {
+        "calories": 119,
+        "flags": []
+    },
+    "split bengal gram dal": {
+        "calories": 100,
+        "flags": []
+    },
+    "horsegram dal": {
+        "calories": 56,
+        "flags": []
+    },
+    "panchmel dal": {
+        "calories": 111,
+        "flags": []
+    },
+    "dal dhokli": {
+        "calories": 69,
+        "flags": []
+    },
+    "gujarati handvo": {
+        "calories": 207,
+        "flags": []
+    },
+    "sev": {
+        "calories": 609,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "papdi": {
+        "calories": 709,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "jowar dosa": {
+        "calories": 294,
+        "flags": []
+    },
+    "bread roll": {
+        "calories": 435,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "soya seekh kebab": {
+        "calories": 115,
+        "flags": []
+    },
+    "classic seasoned black beans": {
+        "calories": 29,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "maa chaane ki dal": {
+        "calories": 345,
+        "flags": []
+    },
+    "garlic chickpea soup": {
+        "calories": 90,
+        "flags": []
+    },
+    "white sauce": {
+        "calories": 210,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "cheese sauce": {
+        "calories": 195,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "egg sauce": {
+        "calories": 147,
+        "flags": []
+    },
+    "mushroom sauce": {
+        "calories": 138,
+        "flags": []
+    },
+    "mustard sauce": {
+        "calories": 159,
+        "flags": []
+    },
+    "brown sauce": {
+        "calories": 109,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "classic italian pasta": {
+        "calories": 42,
+        "flags": []
+    },
+    "pasta spinach sauce": {
+        "calories": 85,
+        "flags": []
+    },
+    "pasta cheese sauce": {
+        "calories": 149,
+        "flags": []
+    },
+    "mayonnaise": {
+        "calories": 775,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "low calorie quick mayonnaise": {
+        "calories": 243,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "thousand island dressing": {
+        "calories": 408,
+        "flags": [
+            "High Calorie",
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "curd dip": {
+        "calories": 80,
+        "flags": []
+    },
+    "short crust pastry": {
+        "calories": 422,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "choux pastry": {
+        "calories": 222,
+        "flags": []
+    },
+    "flaky pastry": {
+        "calories": 444,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "sponge cake": {
+        "calories": 254,
+        "flags": []
+    },
+    "glace icing": {
+        "calories": 324,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "royal icing": {
+        "calories": 333,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "american frosting": {
+        "calories": 258,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "gum icing": {
+        "calories": 223,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "channa murmura premix": {
+        "calories": 339,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "cracked wheat and green gram dal premix": {
+        "calories": 362,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "rice flakes and roasted channa": {
+        "calories": 333,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "spinach soup in milk": {
+        "calories": 57,
+        "flags": []
+    },
+    "vegetable soup": {
+        "calories": 55,
+        "flags": []
+    },
+    "mashed banana with milk": {
+        "calories": 95,
+        "flags": []
+    },
+    "poha with curd": {
+        "calories": 173,
+        "flags": []
+    },
+    "potato with curd": {
+        "calories": 73,
+        "flags": []
+    },
+    "sweet wheat porridge": {
+        "calories": 141,
+        "flags": []
+    },
+    "vegetable khichdi/khichri": {
+        "calories": 143,
+        "flags": []
+    },
+    "moong dal mixture": {
+        "calories": 159,
+        "flags": []
+    },
+    "cracked wheat khichri/khichdi": {
+        "calories": 167,
+        "flags": []
+    },
+    "stewed apple": {
+        "calories": 92,
+        "flags": []
+    },
+    "lemon squash": {
+        "calories": 185,
+        "flags": []
+    },
+    "orange squash": {
+        "calories": 193,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "lichi squash": {
+        "calories": 198,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "mango squash": {
+        "calories": 195,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "pineapple squash": {
+        "calories": 195,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "lemon and ginger squash": {
+        "calories": 170,
+        "flags": []
+    },
+    "apple jam": {
+        "calories": 189,
+        "flags": []
+    },
+    "plum jam": {
+        "calories": 179,
+        "flags": []
+    },
+    "pineapple jam": {
+        "calories": 149,
+        "flags": []
+    },
+    "guava jelly": {
+        "calories": 116,
+        "flags": []
+    },
+    "orange marmalade": {
+        "calories": 104,
+        "flags": []
+    },
+    "carrot murabba": {
+        "calories": 175,
+        "flags": []
+    },
+    "gooseberry marmalade": {
+        "calories": 123,
+        "flags": []
+    },
+    "ginger candy": {
+        "calories": 196,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "mango pickle": {
+        "calories": 192,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "mixed vegetable pickle": {
+        "calories": 211,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "sweet lemon pickle": {
+        "calories": 70,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "plum chutney": {
+        "calories": 177,
+        "flags": []
+    },
+    "raw mango chutney": {
+        "calories": 193,
+        "flags": []
+    },
+    "tomato sauce": {
+        "calories": 34,
+        "flags": []
+    },
+    "tomato puree": {
+        "calories": 21,
+        "flags": []
+    },
+    "garam masala": {
+        "calories": 254,
+        "flags": []
+    },
+    "chat masala": {
+        "calories": 223,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "kashmiri masala": {
+        "calories": 389,
+        "flags": [
+            "High Fat",
+            "High Sodium"
+        ]
+    },
+    "rasam powder": {
+        "calories": 268,
+        "flags": []
+    },
+    "sambar powder": {
+        "calories": 297,
+        "flags": [
+            "High Fat"
+        ]
+    },
+    "tartare sauce": {
+        "calories": 611,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "barbeque sauce": {
+        "calories": 122,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "bread sauce": {
+        "calories": 111,
+        "flags": []
+    },
+    "green chilli sauce": {
+        "calories": 46,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "home made plain noodles": {
+        "calories": 239,
+        "flags": []
+    },
+    "dal moong": {
+        "calories": 44,
+        "flags": []
+    },
+    "cumin seeds baghar": {
+        "calories": 737,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "onion tomato baghar": {
+        "calories": 138,
+        "flags": []
+    },
+    "mustard seeds baghar": {
+        "calories": 553,
+        "flags": [
+            "High Calorie",
+            "High Fat"
+        ]
+    },
+    "hot cherry sauce": {
+        "calories": 253,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "apple jelly": {
+        "calories": 152,
+        "flags": []
+    },
+    "marmalade": {
+        "calories": 144,
+        "flags": []
+    },
+    "plum squash": {
+        "calories": 211,
+        "flags": [
+            "High Carb"
+        ]
+    },
+    "lemon green chilli pickle": {
+        "calories": 14,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "brinjal pickle": {
+        "calories": 139,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "sweet and sour tomato pickle": {
+        "calories": 61,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "jhatpat achar with carrot": {
+        "calories": 91,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "tomato chutney": {
+        "calories": 176,
+        "flags": [
+            "High Sodium"
+        ]
+    },
+    "tomato ketchup": {
+        "calories": 33,
+        "flags": []
+    },
+    "bengal 5 spice blend": {
+        "calories": 290,
+        "flags": [
+            "High Fat"
+        ]
+    }
+}
