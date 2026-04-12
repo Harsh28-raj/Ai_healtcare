@@ -53,8 +53,8 @@ def get_embeddings():
 
 def ask_llm(prompt: str) -> str:
     response = client.chat.completions.create(
-        messages=[{"role": "user", "content": prompt}],
         model="llama-3.1-8b-instant",
+        messages=[{"role": "user", "content": prompt}],
     )
     return response.choices[0].message.content
 
@@ -277,6 +277,9 @@ Question:
 
 # ───────────────────────────────
 
+import uvicorn
+import os
+
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
