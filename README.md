@@ -67,7 +67,7 @@ JSON Response
 
 ### Base URL
 ```
-https://your-app.onrender.com
+https://ai-healtcare.onrender.com
 ```
 
 ### `POST /predict`
