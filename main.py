@@ -1,4 +1,6 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
+from database import food_barcode_collection
+from datetime import datetime
 import requests
 import joblib
 import numpy as np
@@ -21,7 +23,7 @@ def home():
     return {"status": "Online", "message": "ML Health API is running. Use /predict/{barcode}"}
 
 @app.get("/predict/{barcode}")
-def predict_health(barcode: str):
+def predict_health(barcode: str, user_id: str = Query(default="guest")):
     # --- STEP A: Open Food Facts API Configuration ---
     off_url = f"https://world.openfoodfacts.org/api/v0/product/{barcode}.json"
     
@@ -79,6 +81,21 @@ def predict_health(barcode: str):
         else: grade, cat = "E", "Very Unhealthy"
 
         print(f"✅ Prediction Success for {p.get('product_name', 'Unknown')}: {predicted_score}")
+
+        food_barcode_collection.insert_one({
+            "user_id": user_id,
+            "barcode": barcode,
+            "product_name": p.get('product_name', 'Unknown Product'),
+            "brand": p.get('brands', 'Unknown Brand'),
+            "final_grade": grade,
+            "health_score_raw": float(predicted_score),
+            "nutrients": {
+                "energy_kcal": input_vector[0],
+                "fat": input_vector[1],
+                "fiber": input_vector[5]
+            },
+            "timestamp": datetime.utcnow()
+        })
 
         # --- STEP D: Final Response ---
         return {
