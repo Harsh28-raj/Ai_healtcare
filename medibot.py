@@ -10,6 +10,40 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
 from dotenv import load_dotenv
+import requests
+
+def get_user_context(user_id: str) -> str:
+    try:
+        response = requests.get(
+            f"https://ai-healtcare-gateway.onrender.com/user/summary/{user_id}",
+            timeout=5
+        )
+        if response.status_code == 200:
+            return response.json().get("summary", "")
+    except:
+        pass
+    return ""
+
+CUSTOM_PROMPT_TEMPLATE = """
+You are MediMind, a personal AI medical assistant.
+Use the user's personal health context AND the medical 
+knowledge base to give a personalized answer.
+
+User Health Context:
+{user_context}
+
+Medical Knowledge Base:
+{context}
+
+Question: {input}
+
+Give a personalized, specific answer based on the user's 
+health history. If context is empty, give a general answer.
+Never hallucinate or guess medical facts.
+
+Answer:
+"""
+
 load_dotenv()
 
 DB_FAISS_PATH = "vectorstore/db_faiss"
@@ -251,7 +285,12 @@ def main():
                 api_key=GROQ_API_KEY,
             )
 
-            retrieval_qa_chat_prompt = hub.pull("langchain-ai/retrieval-qa-chat")
+            user_context = get_user_context("guest")
+            formatted_template = CUSTOM_PROMPT_TEMPLATE.replace("{user_context}", user_context)
+            retrieval_qa_chat_prompt = PromptTemplate(
+                template=formatted_template, 
+                input_variables=["context", "input"]
+            )
             combine_docs_chain = create_stuff_documents_chain(llm, retrieval_qa_chat_prompt)
             rag_chain = create_retrieval_chain(
                 vectorstore.as_retriever(search_kwargs={'k': 3}),
