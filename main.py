@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
+from database import food_log_collection, check_and_create_alerts
+from datetime import datetime
 from pydantic import BaseModel
 from rapidfuzz import fuzz, process
 import json
@@ -19,7 +21,7 @@ class LogRequest(BaseModel):
     text: str
 
 @app.post("/analyze-log")
-async def analyze_log(request: LogRequest):
+async def analyze_log(request: LogRequest, user_id: str = Query(default="guest")):
     user_text = request.text.lower()
     user_words = user_text.split()
     
@@ -74,6 +76,18 @@ async def analyze_log(request: LogRequest):
         recommendation = "Watch out for salt and fried items in your next meal."
     elif activity_level != "Active":
         recommendation = "Try to add at least 15 mins of movement today."
+
+    food_log_collection.insert_one({
+        "user_id": user_id,
+        "items": list(detected_items.keys()),
+        "calories": total_calories,
+        "health_score": health_score,
+        "risk_flags": list(risk_flags),
+        "activity_level": activity_level,
+        "recommendation": recommendation,
+        "timestamp": datetime.utcnow()
+    })
+    check_and_create_alerts(user_id)
 
     return {
         "status": "success",
